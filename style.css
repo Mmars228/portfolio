@@ -135,7 +135,7 @@ h2::after {
 	height: 55px;
 }
 
-.btn:hover{
+.btn:hover {
 	color: var(--bg-dark);
 	background-color: var(--gold);
 }
@@ -146,4 +146,59 @@ h2::after {
 	gap: 25px;
 	margin: 60px 20px;
 	flex-wrap: wrap;
+}
+
+.video_GG {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.video_GG div {
+	position: absolute;
+}
+
+.price-items {
+	display: flex;
+	margin: 0 20px;
+	gap: 25px;
+}
+
+.price-item {
+	border: 3px solid var(--gold);
+	background-color: var(--bg-dark);
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+	width: 450px;
+	height: 505px;
+}
+
+.price-item h4 {
+	font-family: var(--font-title);
+	font-size: 28px;
+}
+
+.price-item div {
+	color: var(--gold);
+	margin: 37px 0;
+	font-weight: 700;
+	font-size: 24px;
+	font-family: var(--font-title);
+}
+
+.frame {
+	border: none;
+	color:  var(--bg-dark);
+	background-color:var(--gold);
+	width: 220px;
+	height: 55px;
+	margin: 40px 0 45px;
+}
+
+.frame:hover {
+	color:var(--white);
+	background-color: var(--gold);
 }
