@@ -14,7 +14,9 @@
 <body>
   <div class="bg">
     <header>
-      <img src="img/logo.svg" alt="фотопарат" />
+      <svg class='icon-cam' width='50' height='50'>
+        <use href='img/symbol-defs.svg#icon-logo'></use>
+      </svg>
       <ul class='nav'>
         <li>Skills</li>
         <li>Portfolio</li>
@@ -124,6 +126,44 @@
       </div>
     </div>
   </section>
+
+  <section id='contacts'>
+    <h3>Contact me</h3>
+
+    <form class='contacts-title'>
+      <input type="email" placeholder="E-mail" />
+      <input type='tel' placeholder='Phone'>
+      <textarea name="feedback" rows="5" placeholder="Message"></textarea>
+      <button class='lord'>Send message</button>
+    </form>
+
+  </section>
+
+  <footer>
+  
+    <div class='Gogo'>
+      <label>©</label>
+      <label>2022</label>
+      <label>github</label>
+    </div>
+
+    <label>Rolling Scopes School</label>
+
+    <div class='icons'>
+      <svg class='icon' width='32' height='32'>
+        <use href='img/symbol-defs.svg#icon-inst'></use>
+      </svg>
+      <svg class='icon' width='32' height='32'>
+        <use href='img/symbol-defs.svg#icon-fb'></use>
+      </svg>
+      <svg class='icon' width='32' height='32'>
+        <use href='img/symbol-defs.svg#icon-tw'></use>
+      </svg>
+      <svg class='icon' width='32' height='32'>
+        <use href='img/symbol-defs.svg#icon-pinterest'></use>
+      </svg>
+    </div>
+  </footer>
 </body>
 
 </html>

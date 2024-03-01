@@ -36,6 +36,15 @@ header {
 	padding: 20px;
 }
 
+.icon-cam {
+	cursor: pointer;
+	fill: var(--white);
+}
+
+.icon-cam:hover {
+	fill: var(--gold);
+}
+
 .nav {
 	display: flex;
 	flex-direction: row;
@@ -67,8 +76,15 @@ h1 {
 	width: 220px;
 	height: 55px;
 	text-align: center;
+	border: none;
+	color: var(--bg-dark);
 	background-color: var(--gold);
-	border: 0;
+}
+
+.hero-btn:hover {
+	cursor: pointer;
+	color: var(--white);
+	background-color: var(--gold);
 }
 
 .hero-text {
@@ -136,6 +152,7 @@ h2::after {
 }
 
 .btn:hover {
+	cursor: pointer;
 	color: var(--bg-dark);
 	background-color: var(--gold);
 }
@@ -191,14 +208,97 @@ h2::after {
 
 .frame {
 	border: none;
-	color:  var(--bg-dark);
-	background-color:var(--gold);
+	color: var(--bg-dark);
+	background-color: var(--gold);
 	width: 220px;
 	height: 55px;
 	margin: 40px 0 45px;
 }
 
 .frame:hover {
-	color:var(--white);
+	cursor: pointer;
+	color: var(--white);
 	background-color: var(--gold);
+}
+
+#contacts {
+	background-image: url('img/Figma.jpg');
+	width: 1440px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	margin-top: 100px;
+}
+
+#contacts h3 {
+	color: var(--gold);
+	/* font-size: var(--font-title); */
+	font: 40px var(--font-title);
+	width: 450px;
+}
+
+.contacts-title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 450px;
+	margin: 40px 20px;
+}
+
+input,
+textarea {
+	box-sizing: border-box;
+	color: var(--white);
+	width: 450px;
+	padding: 10px 20px;
+	border: 2px solid var(--gold);
+	background-color: rgb(0, 0, 0, 0.5);
+	resize: none;
+}
+
+::placeholder {
+	color: var(--gold);
+	background-color: var();
+}
+
+.lord {
+	border: none;
+	color: var(--bg-dark);
+	background-color: var(--gold);
+	width: 220px;
+	height: 55px;
+	margin: 10px 0;
+}
+
+.lord:hover {
+	cursor: pointer;
+	color: var(--white);
+	background-color: var(--gold);
+}
+
+footer {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 20px;
+	height: 150px;
+}
+
+.Gogo {
+	display: flex;
+	gap: 20px;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	fill: var(--white);
+}
+
+.icon:hover {
+	fill: var(--gold);
+	cursor: pointer;
 }
